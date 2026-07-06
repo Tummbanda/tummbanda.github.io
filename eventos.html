@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tumbanda · Tamboras Transfeministas</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="rainbow-bar"></div>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="home.html" class="nav-link">Inicio</a>
+            <a href="nosotras.html" class="nav-link">Nosotras</a>
+            <a href="#eventos" class="nav-link">Próximas Fechas</a>
+            <a href="eventos.html" class="nav-link">Contacto</a>
+            <a href="#galeria" class="nav-link">Galeria</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Tumbanda</h1>
+            <p class="hero-subtitle-page">Próximas Presentaciones</p>
+        </div>
+    </section>
+
+
+<section class="events" id="eventos">
+    <div class="container">
+        <h2 class="section-title">Próximos Presentaciones</h2>
+        <div class="events-grid">
+            <div class="event-card">
+                <div class="event-date">
+                    <span class="event-day">15</span>
+                    <span class="event-month">Ago</span>
+                </div>
+                <div class="event-info">
+                    <h3 class="event-title">Encuentro de tamboras</h3>
+                    <p class="event-description">Intervención urbana en Plaza Central. Traé tu tambor o usá los nuestros. ¡Todas las voces y ritmos son bienvenidas!</p>
+                    <p class="event-place">📍 Plaza Central · 18:00 h</p>
+                    <span class="event-tag">abierto</span>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-date">
+                    <span class="event-day">22</span>
+                    <span class="event-month">Ago</span>
+                </div>
+                <div class="event-info">
+                    <h3 class="event-title">Taller de ritmos feministas</h3>
+                    <p class="event-description">Aprendé ritmos afroperuanos y afrobrasileños con perspectiva feminista. No necesitas experiencia previa.</p>
+                    <p class="event-place">📍 Casa de la Cultura · 10:00 h</p>
+                    <span class="event-tag">taller</span>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-date">
+                    <span class="event-day">05</span>
+                    <span class="event-month">Sep</span>
+                </div>
+                <div class="event-info">
+                    <h3 class="event-title">Fiesta de la Primavera</h3>
+                    <p class="event-description">Celebración con shows en vivo, feria de emprendedoras y batucada. ¡Ven con tu mejor energía!</p>
+                    <p class="event-place">📍 Parque del Sur · 16:00 h</p>
+                    <span class="event-tag">festival</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacto" id="contacto">
+    <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contacto-wrapper">
+            <!-- Columna izquierda: Info -->
+            <div class="contacto-info">
+                <p class="contacto-desc">
+                    ¿Querés sumarte, invitarnos o saber más? <br />
+                    Escribinos y te respondemos con la fuerza de un redoble.
+                </p>
+                <ul class="contacto-detalles">
+                    <li><span class="icono">📧</span> hola@tumbanda.com</li>
+                    <li><span class="icono">📍</span> Buenos Aires, Argentina</li>
+                </ul>
+            </div>
+
+            <div class="contacto-form">
+                <form action="https://formspree.io/f/tu-endpoint-aqui" method="POST">
+                    <input type="text" name="nombre" placeholder="Tu nombre" required />
+                    <input type="email" name="email" placeholder="Correo electrónico" required />
+                    <input type="text" name="asunto" placeholder="Asunto" />
+                    <textarea name="mensaje" rows="5" placeholder="Escribí tu mensaje aquí ..." required></textarea>
+                    <button type="submit" class="btn-enviar">Enviar mensaje</button>
+                </form>
+                <p class="form-nota">📬 No compartimos tus datos con nadie. Tu mensaje llega directo a la banda.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <p class="footer-text">Seguinos en redes</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Correo</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
